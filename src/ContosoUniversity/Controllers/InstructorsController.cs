@@ -47,7 +47,7 @@ namespace ContosoUniversity.Controllers
 
             if (courseID != null)
             {
-                //²âÊÔ
+                //²âÊÔsdfdsf 
                 ViewData["CourseID"] = courseID.Value;
                 _context.Enrollments
            .Include(i => i.Student)
